@@ -8,7 +8,7 @@
 .LSOverride
 
 # OS X Thumbnails
-._*
+._
 
 # Windows image file caches
 Thumbs.db
@@ -16,25 +16,25 @@ ehthumbs.db
 Desktop.ini
 
 # Recycle Bin used on file shares
-$RECYCLE.BIN/
+$RECYCLE.BIN
 
 # Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+.cab
+.msi
+.msm
+.msp
 
 # Windows shortcuts
-*.lnk
+.lnk
 
 # Linux
-*~
+~
 
 # KDE directory preferences
 .directory
 
 # Linux trash folder which might appear on any partition or disk
-.Trash-*
+.Trash-
 
 #-------------------------
 # Environment Files
@@ -48,35 +48,35 @@ Vagrantfile
 #-------------------------
 # Temporary Files
 #-------------------------
-writable/cache/*
-!writable/cache/index.html
+writablecache
+!writablecacheindex.html
 
-writable/logs/*
-!writable/logs/index.html
+writablelogs
+!writablelogsindex.html
 
-writable/session/*
-!writable/session/index.html
+writablesession
+!writablesessionindex.html
 
-writable/uploads/*
-!writable/uploads/index.html
+writableuploads
+!writableuploadsindex.html
 
-writable/debugbar/*
-!writable/debugbar/.gitkeep
+writabledebugbar
+!writabledebugbar.gitkeep
 
-writable/**/*.db
-writable/**/*.sqlite
+writable.db
+writable.sqlite
 
 php_errors.log
 
 #-------------------------
 # User Guide Temp Files
 #-------------------------
-user_guide_src/build/*
+user_guide_srcbuild
 
 #-------------------------
 # Test Files
 #-------------------------
-tests/coverage*
+testscoverage
 
 # Don't save phpunit under version control.
 phpunit
@@ -84,47 +84,47 @@ phpunit
 #-------------------------
 # Composer
 #-------------------------
-vendor/
+vendor
 composer.lock
 
 #-------------------------
-# IDE / Development Files
+# IDE  Development Files
 #-------------------------
 
 # Modules Testing
-_modules/*
+_modules
 
 # phpenv local config
 .php-version
 
 # Jetbrains editors (PHPStorm, etc)
-.idea/
-*.iml
+.idea
+.iml
 
 # Netbeans
-nbproject/
-build/
-nbbuild/
-dist/
-nbdist/
+nbproject
+build
+nbbuild
+dist
+nbdist
 nbactions.xml
 nb-configuration.xml
-.nb-gradle/
+.nb-gradle
 
 # Sublime Text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
+.tmlanguage.cache
+.tmPreferences.cache
+.stTheme.cache
+.sublime-workspace
+.sublime-project
 .phpintel
-/api/
+api
 
 # Visual Studio Code
-.vscode/
+.vscode
 
-/results/
-/phpunit*.xml
-/.phpunit.*.cache
+results
+phpunit.xml
+.phpunit..cache
 
-/.php-cs-fixer.php
+.php-cs-fixer.php
