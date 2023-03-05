@@ -1,12 +1,12 @@
 <h2 class="glow4"><?= esc($title) ?></h2>
 <div style="height:50px; width:300px;">
-<a href="create" class="w3-button w3-block w3-black glow2 w3-hover-purple">CREATE NEWS</a>
+<a href="guest/create" class="w3-button w3-block w3-black glow2 w3-hover-purple">CREATE GUEST</a>
 </div>
 <?php if (! empty($guest) && is_array($guest)): ?>
 
     <?php foreach ($guest as $guest_item): ?>
 
-        <h3 class="glow4"><?= esc($guest_item['title']) ?></h3>
+       
 
         <div class="main glow4">
            <h3> <?= esc($guest_item['name']) ?> </h3>

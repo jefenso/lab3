@@ -13,3 +13,55 @@ INFO - 2023-03-05 11:58:52 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-03-05 11:58:54 --> CSRF token verified.
 INFO - 2023-03-05 11:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-03-05 11:59:43 --> CSRF token verified.
+INFO - 2023-03-05 13:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 13:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 13:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 13:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 13:22:32 --> CSRF token verified.
+INFO - 2023-03-05 13:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 13:22:45 --> CSRF token verified.
+CRITICAL - 2023-03-05 13:35:36 --> Undefined index: title
+in APPPATH\Views\guest\index.php on line 9.
+ 1 APPPATH\Views\guest\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title', 'APPPATH\\Views\\guest\\index.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/index', [], true)
+ 5 APPPATH\Controllers\Guest.php(21): view('guest/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:35:51 --> Undefined index: title
+in APPPATH\Views\guest\index.php on line 9.
+ 1 APPPATH\Views\guest\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title', 'APPPATH\\Views\\guest\\index.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/index', [], true)
+ 5 APPPATH\Controllers\Guest.php(21): view('guest/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-05 13:43:54 --> Undefined index: title
+in APPPATH\Views\guest\index.php on line 9.
+ 1 APPPATH\Views\guest\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title', 'APPPATH\\Views\\guest\\index.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/index', [], true)
+ 5 APPPATH\Controllers\Guest.php(21): view('guest/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-03-05 13:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 13:44:24 --> Undefined index: title
+in APPPATH\Views\guest\index.php on line 9.
+ 1 APPPATH\Views\guest\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title', 'APPPATH\\Views\\guest\\index.php', 9, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\guest\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('guest/index', [], true)
+ 5 APPPATH\Controllers\Guest.php(21): view('guest/index')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Guest->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Guest))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

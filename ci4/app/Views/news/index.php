@@ -1,6 +1,16 @@
-<h2 class="glow4"><?= esc($title) ?></h2>
-<div style="height:50px; width:300px;">
-<a href="create" class="w3-button w3-block w3-black glow2 w3-hover-purple">CREATE NEWS</a>
+<h2 class="glow4" style="text-align:center"><?= esc($title) ?></h2>
+
+<div>
+  <div class="w3-col w3-container  l6 ">
+  <a href="create" class="w3-button w3-block w3-black glow2 w3-hover-purple">CREATE NEWS</a>
+  </div>
+  <div class="w3-col w3-container  l6">  
+  <a href="guest" class="w3-button w3-block w3-black glow2 w3-hover-purple">GO TO GUESTS</a>
+  </div>
+</div>
+<div style="height:50px; width: 600px;">
+
+
 </div>
 <?php if (! empty($news) && is_array($news)): ?>
 
