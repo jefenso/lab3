@@ -2,7 +2,7 @@
 
 <div>
   <div class="w3-col w3-container  l6 ">
-  <a href="create" class="w3-button w3-block w3-black glow2 w3-hover-purple">CREATE NEWS</a>
+  <a href="news/create" class="w3-button w3-block w3-black glow2 w3-hover-purple">CREATE NEWS</a>
   </div>
   <div class="w3-col w3-container  l6">  
   <a href="guest" class="w3-button w3-block w3-black glow2 w3-hover-purple">GO TO GUESTS</a>
