@@ -64,6 +64,10 @@ img {vertical-align: middle;}
   .text {font-size: 11px}
 }
 </style>
+<div style="padding-top: 50px">
+<h1 class="glow">GALLERY</h1>
+</div>
+
 
 <div class="slideshow-container w3-round-large">
 
